@@ -1,3 +1,17 @@
+---
+
+## 🇰🇷 프로젝트 소개 (한국어)
+
+이 프로젝트는 **다중 에이전트 강화학습 (Multi-Agent Reinforcement Learning, MARL)** 을 위한 Pytorch 기반의 경량 프레임워크입니다. 여러 에이전트가 협력하거나 경쟁하는 복잡한 문제를 해결하기 위해 설계되었습니다.
+
+### 주요 특징
+
+*   **핵심 알고리즘:** 신뢰성과 성능이 검증된 **PPO (Proximal Policy Optimization)** 알고리즘을 사용합니다.
+*   **표준 환경 지원:** 다중 에이전트 환경의 표준 API인 **PettingZoo**를 기반으로 하여, 다양한 환경에 쉽게 적용하고 테스트할 수 있습니다.
+*   **모듈화된 설계:** 환경(`env.py`), PPO 알고리즘(`ppo.py`), 신경망 모델(`models.py`) 등이 명확하게 분리되어 있어 코드를 이해하고 수정하기 용이합니다.
+*   **쉬운 실험 관리:** `config` 디렉토리에서 하이퍼파라미터를 쉽게 변경하며 다양한 학습 실험을 진행할 수 있습니다.
+
+
 # RL Swarm
 
 RL Swarm is a peer-to-peer system for reinforcement learning. It allows you to train models collaboratively with others in the swarm, leveraging their collective intelligence. It is open source and permissionless, meaning you can run it on a consumer laptop at home or on a powerful GPU in the cloud. You can also connect your model to the Gensyn Testnet to receive an on-chain identity that tracks your progress over time.
